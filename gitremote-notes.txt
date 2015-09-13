@@ -26,4 +26,7 @@ Branch work set up to track remote branch work from github.
 This created branch 'work' in github i.e. not 'master' as usual.
 
 
-git branch --set-upstream
+git branch --set-upstream <local branch> <remote branch>
+
+Create new branch and let it track work:
+	git checkout -b work-also-tracking-work --track github/work
